@@ -6,7 +6,7 @@ import (
 	"github.com/magiconair/properties/assert"
 )
 
-func TestMain(t *testing.T) {
+func TestBmi(t *testing.T) {
 	cases := []struct {
 		name  string
 		param []string
